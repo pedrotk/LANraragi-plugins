@@ -47,7 +47,7 @@ sub get_tags {
     my ( $title, $tags, $thumbhash, $file, $oneshotarg, $savetitle, $search ) = @_;
 
     #Use the logger to output status - they'll be passed to a specialized logfile and written to STDOUT.
-    my $logger = LANraragi::Utils::Generic::get_logger("MyAnimeList","plugins");
+    my $logger = LANraragi::Utils::Logging::get_logger("MyAnimeList","plugins");
 
 	sleep($SLEEP);
 
